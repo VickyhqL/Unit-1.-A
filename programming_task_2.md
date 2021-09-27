@@ -6,3 +6,11 @@ Step 2: 2 * 7 = 14
 Step 3: 1 * 4 = 4
 Since it took us 3 steps to reach a number with only 1 digit, the output is 3.
 
+num=int(input())
+from functools import reduce
+from operator import mul
+def persistence(num, count=0):
+    if num < 10:
+        return count
+new_num=reduce(mul,map(int, str(num)))
+return persistence(new_num, count+1)
