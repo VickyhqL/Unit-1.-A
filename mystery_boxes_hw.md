@@ -33,4 +33,11 @@ def clcm(a,b,c):
    return lcm
 print(clcm(a,b,c))
   
+a=(input())
+b=a.split( )
+def mb4(a):
+    index=b.inedx()
+    if index<7:
+        return index
+print  mb4(a)
   
