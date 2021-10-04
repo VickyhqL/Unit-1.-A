@@ -38,6 +38,9 @@ b=a.split( )
 def mb4(a):
     index=b.inedx()
     if index<7:
-        return index
-print  mb4(a)
+      print  mb4(a)
+       
+              return index![Screenshot (10)](https://user-images.githubusercontent.com/89110625/135782870-4cdd3a5a-8de8-4c87-a83f-eb6064577480.png)
+
+
   
