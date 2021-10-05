@@ -40,7 +40,4 @@ def mb4(a):
     if index<7:
       print  mb4(a)
        
-              return index![Screenshot (10)](https://user-images.githubusercontent.com/89110625/135782870-4cdd3a5a-8de8-4c87-a83f-eb6064577480.png)
-
-
-  
+            
